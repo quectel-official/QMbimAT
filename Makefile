@@ -4,9 +4,7 @@ SOURCES = $(SRCDIR)/main.c \
           $(SRCDIR)/api.c \
           $(SRCDIR)/mbim_ctx.c \
           $(SRCDIR)/mbim_dump.c \
-          $(SRCDIR)/mbim_protocol.c \
-          $(SRCDIR)/md5.c \
-          $(SRCDIR)/dmi.c
+          $(SRCDIR)/mbim_protocol.c
 SUBDIR =
 
 CFLAGS = -Iinc
